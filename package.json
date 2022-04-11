@@ -1,0 +1,23 @@
+{
+  "name": "segway",
+  "version": "1.0.0",
+  "description": "segway shop",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacick/sagway.git"
+  },
+  "author": "bacick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bacick/sagway/issues"
+  },
+  "homepage": "https://github.com/bacick/sagway#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

@@ -28,7 +28,34 @@ module.exports = {
             {
                 test: /\.(sa|sc|c)ss$/i,
                 use: [cssExtractPlugin.loader,'css-loader','sass-loader']
-        },
+            },
+            {
+                test: /\.html$/i,
+                loader: 'html-loader'
+            },
+            {
+                test: /\.(png|jpg?g|gif)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                          name: '[path][name].[ext]',
+                        },
+                      },
+                    // {
+                    //     loader: 'img-optimize-loader',
+                    //     options: {
+                    //         name: '[path][name].[ext]',
+                    //         compress: {
+                    //             mode: 'high',
+                    //             webp: false,
+                    //             gifsicle: true,
+                    //             disableOnDevelopment: false,
+                    //         },
+                    //     },
+                    // },
+                ],
+            },
         ]
     }
 }

@@ -1,3 +1,13 @@
-.body {
-  background-color: blue  
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+* {
+  font-family: Proxima Nova, Roboto, sans-serif;
+  max-width: 1392px;
+}
+
+.container {
+  max-width: 948px;
+  margin: 0 auto;
+  padding: 5px 20px;  
     }

@@ -1,0 +1,25 @@
+.header__container {
+    background-color: #323941;
+    height: 48px;
+}
+
+.header__menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    .menu__list {
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;   
+    }
+    .menu__link {
+            color: #FFFFFF;
+            padding-left: 24px;
+    }
+}
+

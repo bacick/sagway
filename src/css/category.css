@@ -1,0 +1,59 @@
+.category-wraper {
+  width: 100%;
+  height: 361px;
+  background-color: #323941;
+}
+
+.category-wraper .category-top {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
+}
+
+.category-wraper .category-bottom {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
+}
+
+.category-wraper .category-divider {
+  background-color: #000;
+  height: 1px;
+}
+
+.category-wraper .category-item {
+  padding: 10px 5px 0px 5px;
+}
+
+.category-wraper .category-item .category-item_img {
+  height: 80px;
+  padding-bottom: 6px;
+  display: block;
+  margin: 0 auto;
+}
+
+.category-wraper .category-item .category-item_text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.4;
+  padding-bottom: 18px;
+}
+
+.category-wraper .categoty-link {
+  margin: 0px;
+}
+
+.category-wraper .categoty-link:focus {
+  background-color: #009EFF;
+}
+
+.category-wraper .categoty-link:focus .category-item_text {
+  opacity: 1;
+}
+/*# sourceMappingURL=category.css.map */

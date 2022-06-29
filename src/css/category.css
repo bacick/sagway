@@ -1,17 +1,10 @@
 .category-wraper {
   width: 100%;
-  height: 361px;
   background-color: #323941;
 }
 
-.category-wraper .category-top {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[7];
-      grid-template-columns: repeat(7, 1fr);
-}
-
-.category-wraper .category-bottom {
+.category-wraper .category-box {
+  height: 130px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[7];
@@ -32,6 +25,9 @@
   padding-bottom: 6px;
   display: block;
   margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: inherit;
 }
 
 .category-wraper .category-item .category-item_text {

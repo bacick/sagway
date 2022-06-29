@@ -1,15 +1,15 @@
 .category-wraper {
     width: 100%;
-    height: 361px;
     background-color: #323941;
-    .category-top {
+    .category-box {
+        height: 130px;
         display: grid;
         grid-template-columns: repeat(7, 1fr);
     }
-    .category-bottom {
-        display: grid;
-        grid-template-columns: repeat(7, 1fr);
-    }
+    // .category-bottom {
+    //     display: grid;
+    //     grid-template-columns: repeat(7, 1fr);
+    // }
     .category-divider {
         background-color:  #000;
         height: 1px;
@@ -22,6 +22,8 @@
             padding-bottom: 6px;
             display: block;
             margin: 0 auto;
+            object-fit: cover;
+           overflow: inherit;
         }
         .category-item_text{
             font-weight: 700;

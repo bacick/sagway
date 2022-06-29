@@ -1,0 +1,26 @@
+.baner {
+    background-color: #009EFF;
+    height: 48px;
+    width: 100%;
+    text-align: center;
+    .maindispley-baner_text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 15px;
+    }
+}
+.maindisplay-content {
+    display: flex;
+}
+.maindisplay-content_picture {
+    .image {
+        height: 687px;
+        width: 432px;
+        background-image: url(../img/maindisplay/MAXG30EII.png);
+        background-size: cover;
+    }
+}

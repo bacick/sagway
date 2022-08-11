@@ -15,8 +15,95 @@
 }
 .maindisplay-content {
     display: flex;
+    margin-top: 14px;
 }
-.maindisplay-content_picture {
+
+.maindisplay-content_text {
+    width: 50%;
+    .stock{
+        height: 24px;
+        width: 89px;
+        border: 1px solid #6ACD68;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 180%;
+        color: #6ACD68;
+        text-align: center;
+        margin: 28px auto 11px 0;
+    }
+    .titel-goods{
+        height: 280px;
+        margin-bottom: 13px;
+    }
+    .titel-goods h1{
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 87.3%;
+        text-transform: uppercase;
+        color: #323941;
+        padding-top: 6px; 
+    }
+    .protective-block{
+        height: 272px;
+        width: 542px;
+        border: 2px solid rgba(153, 153, 153, .33);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        & > p{
+            width: inherit;
+            display: block;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #323941;
+            padding: 30px 0px 13px 20px;
+        }
+        & > input{
+            height: 36px;
+            width: 161px;
+            border: 1px solid #999999;
+            background-color: #fff;
+
+        }
+            .protective-block-price{
+                width: 161px;
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 43px;
+                color: #323941;
+            }
+
+            
+            .protective-block-price p:first-child{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                text-decoration-line: line-through;
+                color: #323941;
+            }
+            .protective-block-text{
+                width: 161px;
+                font-size: 18px;
+                line-height: 22px;
+                color: #009EFF;
+
+            }
+
+            .protective-block-image{
+                width: 161px;
+                & > img{
+                    margin-left: 45px;
+                }
+            }
+    }
+        
+}
+
+
+.maindisplay-content_slider {
+    width: 50%;
     .image {
         height: 687px;
         width: 432px;

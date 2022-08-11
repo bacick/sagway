@@ -16,14 +16,16 @@
     }
     .category-item {
         padding: 10px 5px 0px 5px;
-        .category-item_img {
+        .category_img-wraper{
             height: 80px;
-            // padding-top: 10px;
-            padding-bottom: 6px;
+            overflow: hidden;
+        }
+        .category-item_img {
             display: block;
-            margin: 0 auto;
             object-fit: cover;
-           overflow: inherit;
+        }
+        .accessories {
+            margin-top: 35px;
         }
         .category-item_text{
             font-weight: 700;

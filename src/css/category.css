@@ -20,14 +20,19 @@
   padding: 10px 5px 0px 5px;
 }
 
-.category-wraper .category-item .category-item_img {
+.category-wraper .category-item .category_img-wraper {
   height: 80px;
-  padding-bottom: 6px;
+  overflow: hidden;
+}
+
+.category-wraper .category-item .category-item_img {
   display: block;
-  margin: 0 auto;
   -o-object-fit: cover;
      object-fit: cover;
-  overflow: inherit;
+}
+
+.category-wraper .category-item .accessories {
+  margin-top: 35px;
 }
 
 .category-wraper .category-item .category-item_text {
